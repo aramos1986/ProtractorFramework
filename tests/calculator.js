@@ -13,7 +13,7 @@ describe('demo calculator tests', function () {
 
         homepage.verifyResult('7');
 
-        browser.sleep(2000)
+        browser.sleep(4000)
     });
     it('addition test', function () {
         homepage.get('http://juliemr.github.io/protractor-demo/');
